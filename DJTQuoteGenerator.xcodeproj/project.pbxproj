@@ -7,20 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A127F6C91D2EB341006B7085 /* nowhere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6BC1D2EB341006B7085 /* nowhere.mp3 */; };
+		A127F6CA1D2EB341006B7085 /* mexican.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6BD1D2EB341006B7085 /* mexican.mp3 */; };
+		A127F6CB1D2EB341006B7085 /* love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6BE1D2EB341006B7085 /* love.mp3 */; };
+		A127F6CC1D2EB341006B7085 /* knees.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6BF1D2EB341006B7085 /* knees.mp3 */; };
+		A127F6CD1D2EB341006B7085 /* ladies.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6C01D2EB341006B7085 /* ladies.mp3 */; };
+		A127F6CE1D2EB341006B7085 /* pay.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6C11D2EB341006B7085 /* pay.mp3 */; };
+		A127F6CF1D2EB341006B7085 /* missUSA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6C21D2EB341006B7085 /* missUSA.mp3 */; };
+		A127F6D01D2EB341006B7085 /* muslim.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6C31D2EB341006B7085 /* muslim.mp3 */; };
+		A127F6D11D2EB341006B7085 /* wall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6C41D2EB341006B7085 /* wall.mp3 */; };
+		A127F6D21D2EB341006B7085 /* loan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6C51D2EB341006B7085 /* loan.mp3 */; };
+		A127F6D31D2EB341006B7085 /* rapists.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6C61D2EB341006B7085 /* rapists.mp3 */; };
+		A127F6D41D2EB341006B7085 /* tremendous.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6C71D2EB341006B7085 /* tremendous.mp3 */; };
+		A127F6D51D2EB341006B7085 /* univision.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A127F6C81D2EB341006B7085 /* univision.mp3 */; };
 		A1EFBEB21D2D5EBC00EEE8E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EFBEB11D2D5EBC00EEE8E5 /* AppDelegate.swift */; };
 		A1EFBEB41D2D5EBC00EEE8E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1EFBEB31D2D5EBC00EEE8E5 /* ViewController.swift */; };
 		A1EFBEB71D2D5EBC00EEE8E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEB51D2D5EBC00EEE8E5 /* Main.storyboard */; };
 		A1EFBEB91D2D5EBC00EEE8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEB81D2D5EBC00EEE8E5 /* Assets.xcassets */; };
 		A1EFBEBC1D2D5EBC00EEE8E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEBA1D2D5EBC00EEE8E5 /* LaunchScreen.storyboard */; };
-		A1EFBEE11D2DA3A200EEE8E5 /* beatenManyPeople.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEDC1D2DA3A200EEE8E5 /* beatenManyPeople.mp3 */; };
-		A1EFBEE21D2DA3A200EEE8E5 /* bestBusiness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEDD1D2DA3A200EEE8E5 /* bestBusiness.mp3 */; };
-		A1EFBEE31D2DA3A200EEE8E5 /* bigFailures.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEDE1D2DA3A200EEE8E5 /* bigFailures.mp3 */; };
-		A1EFBEE51D2DA3A200EEE8E5 /* mostCompetitive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEE01D2DA3A200EEE8E5 /* mostCompetitive.mp3 */; };
-		A1EFBEE71D2DA49300EEE8E5 /* bringingDrugs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEE61D2DA49300EEE8E5 /* bringingDrugs.mp3 */; };
 		A1EFBEE91D2DA50700EEE8E5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EFBEE81D2DA50700EEE8E5 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A127F6BC1D2EB341006B7085 /* nowhere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = nowhere.mp3; sourceTree = "<group>"; };
+		A127F6BD1D2EB341006B7085 /* mexican.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mexican.mp3; sourceTree = "<group>"; };
+		A127F6BE1D2EB341006B7085 /* love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = love.mp3; sourceTree = "<group>"; };
+		A127F6BF1D2EB341006B7085 /* knees.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = knees.mp3; sourceTree = "<group>"; };
+		A127F6C01D2EB341006B7085 /* ladies.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ladies.mp3; sourceTree = "<group>"; };
+		A127F6C11D2EB341006B7085 /* pay.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pay.mp3; sourceTree = "<group>"; };
+		A127F6C21D2EB341006B7085 /* missUSA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = missUSA.mp3; sourceTree = "<group>"; };
+		A127F6C31D2EB341006B7085 /* muslim.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = muslim.mp3; sourceTree = "<group>"; };
+		A127F6C41D2EB341006B7085 /* wall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wall.mp3; sourceTree = "<group>"; };
+		A127F6C51D2EB341006B7085 /* loan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = loan.mp3; sourceTree = "<group>"; };
+		A127F6C61D2EB341006B7085 /* rapists.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rapists.mp3; sourceTree = "<group>"; };
+		A127F6C71D2EB341006B7085 /* tremendous.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tremendous.mp3; sourceTree = "<group>"; };
+		A127F6C81D2EB341006B7085 /* univision.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = univision.mp3; sourceTree = "<group>"; };
 		A1EFBEAE1D2D5EBC00EEE8E5 /* DJTQuoteGenerator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJTQuoteGenerator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1EFBEB11D2D5EBC00EEE8E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A1EFBEB31D2D5EBC00EEE8E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,11 +49,6 @@
 		A1EFBEB81D2D5EBC00EEE8E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1EFBEBB1D2D5EBC00EEE8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1EFBEBD1D2D5EBC00EEE8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A1EFBEDC1D2DA3A200EEE8E5 /* beatenManyPeople.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beatenManyPeople.mp3; sourceTree = "<group>"; };
-		A1EFBEDD1D2DA3A200EEE8E5 /* bestBusiness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bestBusiness.mp3; sourceTree = "<group>"; };
-		A1EFBEDE1D2DA3A200EEE8E5 /* bigFailures.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigFailures.mp3; sourceTree = "<group>"; };
-		A1EFBEE01D2DA3A200EEE8E5 /* mostCompetitive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mostCompetitive.mp3; sourceTree = "<group>"; };
-		A1EFBEE61D2DA49300EEE8E5 /* bringingDrugs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bringingDrugs.mp3; sourceTree = "<group>"; };
 		A1EFBEE81D2DA50700EEE8E5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -48,6 +64,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A127F6BB1D2EB341006B7085 /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				A127F6BC1D2EB341006B7085 /* nowhere.mp3 */,
+				A127F6BD1D2EB341006B7085 /* mexican.mp3 */,
+				A127F6BE1D2EB341006B7085 /* love.mp3 */,
+				A127F6BF1D2EB341006B7085 /* knees.mp3 */,
+				A127F6C01D2EB341006B7085 /* ladies.mp3 */,
+				A127F6C11D2EB341006B7085 /* pay.mp3 */,
+				A127F6C21D2EB341006B7085 /* missUSA.mp3 */,
+				A127F6C31D2EB341006B7085 /* muslim.mp3 */,
+				A127F6C41D2EB341006B7085 /* wall.mp3 */,
+				A127F6C51D2EB341006B7085 /* loan.mp3 */,
+				A127F6C61D2EB341006B7085 /* rapists.mp3 */,
+				A127F6C71D2EB341006B7085 /* tremendous.mp3 */,
+				A127F6C81D2EB341006B7085 /* univision.mp3 */,
+			);
+			name = "Audio Files";
+			sourceTree = "<group>";
+		};
 		A1EFBEA51D2D5EBC00EEE8E5 = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +118,7 @@
 		A1EFBEDB1D2DA3A200EEE8E5 /* Audio Files */ = {
 			isa = PBXGroup;
 			children = (
-				A1EFBEDC1D2DA3A200EEE8E5 /* beatenManyPeople.mp3 */,
-				A1EFBEDD1D2DA3A200EEE8E5 /* bestBusiness.mp3 */,
-				A1EFBEE61D2DA49300EEE8E5 /* bringingDrugs.mp3 */,
-				A1EFBEDE1D2DA3A200EEE8E5 /* bigFailures.mp3 */,
-				A1EFBEE01D2DA3A200EEE8E5 /* mostCompetitive.mp3 */,
+				A127F6BB1D2EB341006B7085 /* Audio Files */,
 			);
 			path = "Audio Files";
 			sourceTree = "<group>";
@@ -150,14 +182,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A127F6D11D2EB341006B7085 /* wall.mp3 in Resources */,
+				A127F6CB1D2EB341006B7085 /* love.mp3 in Resources */,
+				A127F6D21D2EB341006B7085 /* loan.mp3 in Resources */,
 				A1EFBEBC1D2D5EBC00EEE8E5 /* LaunchScreen.storyboard in Resources */,
+				A127F6C91D2EB341006B7085 /* nowhere.mp3 in Resources */,
+				A127F6CC1D2EB341006B7085 /* knees.mp3 in Resources */,
+				A127F6D01D2EB341006B7085 /* muslim.mp3 in Resources */,
+				A127F6CE1D2EB341006B7085 /* pay.mp3 in Resources */,
+				A127F6D31D2EB341006B7085 /* rapists.mp3 in Resources */,
+				A127F6CA1D2EB341006B7085 /* mexican.mp3 in Resources */,
 				A1EFBEB91D2D5EBC00EEE8E5 /* Assets.xcassets in Resources */,
-				A1EFBEE31D2DA3A200EEE8E5 /* bigFailures.mp3 in Resources */,
-				A1EFBEE21D2DA3A200EEE8E5 /* bestBusiness.mp3 in Resources */,
-				A1EFBEE71D2DA49300EEE8E5 /* bringingDrugs.mp3 in Resources */,
-				A1EFBEE51D2DA3A200EEE8E5 /* mostCompetitive.mp3 in Resources */,
+				A127F6D41D2EB341006B7085 /* tremendous.mp3 in Resources */,
+				A127F6CD1D2EB341006B7085 /* ladies.mp3 in Resources */,
+				A127F6CF1D2EB341006B7085 /* missUSA.mp3 in Resources */,
 				A1EFBEB71D2D5EBC00EEE8E5 /* Main.storyboard in Resources */,
-				A1EFBEE11D2DA3A200EEE8E5 /* beatenManyPeople.mp3 in Resources */,
+				A127F6D51D2EB341006B7085 /* univision.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
