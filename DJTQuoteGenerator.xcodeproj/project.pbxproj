@@ -12,6 +12,12 @@
 		A1EFBEB71D2D5EBC00EEE8E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEB51D2D5EBC00EEE8E5 /* Main.storyboard */; };
 		A1EFBEB91D2D5EBC00EEE8E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEB81D2D5EBC00EEE8E5 /* Assets.xcassets */; };
 		A1EFBEBC1D2D5EBC00EEE8E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEBA1D2D5EBC00EEE8E5 /* LaunchScreen.storyboard */; };
+		A1EFBEE11D2DA3A200EEE8E5 /* beatenManyPeople.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEDC1D2DA3A200EEE8E5 /* beatenManyPeople.mp3 */; };
+		A1EFBEE21D2DA3A200EEE8E5 /* bestBusiness.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEDD1D2DA3A200EEE8E5 /* bestBusiness.mp3 */; };
+		A1EFBEE31D2DA3A200EEE8E5 /* bigFailures.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEDE1D2DA3A200EEE8E5 /* bigFailures.mp3 */; };
+		A1EFBEE51D2DA3A200EEE8E5 /* mostCompetitive.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEE01D2DA3A200EEE8E5 /* mostCompetitive.mp3 */; };
+		A1EFBEE71D2DA49300EEE8E5 /* bringingDrugs.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A1EFBEE61D2DA49300EEE8E5 /* bringingDrugs.mp3 */; };
+		A1EFBEE91D2DA50700EEE8E5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1EFBEE81D2DA50700EEE8E5 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		A1EFBEB81D2D5EBC00EEE8E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1EFBEBB1D2D5EBC00EEE8E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1EFBEBD1D2D5EBC00EEE8E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1EFBEDC1D2DA3A200EEE8E5 /* beatenManyPeople.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beatenManyPeople.mp3; sourceTree = "<group>"; };
+		A1EFBEDD1D2DA3A200EEE8E5 /* bestBusiness.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bestBusiness.mp3; sourceTree = "<group>"; };
+		A1EFBEDE1D2DA3A200EEE8E5 /* bigFailures.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bigFailures.mp3; sourceTree = "<group>"; };
+		A1EFBEE01D2DA3A200EEE8E5 /* mostCompetitive.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mostCompetitive.mp3; sourceTree = "<group>"; };
+		A1EFBEE61D2DA49300EEE8E5 /* bringingDrugs.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bringingDrugs.mp3; sourceTree = "<group>"; };
+		A1EFBEE81D2DA50700EEE8E5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1EFBEE91D2DA50700EEE8E5 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +51,7 @@
 		A1EFBEA51D2D5EBC00EEE8E5 = {
 			isa = PBXGroup;
 			children = (
+				A1EFBEE81D2DA50700EEE8E5 /* AVFoundation.framework */,
 				A1EFBEB01D2D5EBC00EEE8E5 /* DJTQuoteGenerator */,
 				A1EFBEAF1D2D5EBC00EEE8E5 /* Products */,
 			);
@@ -59,9 +73,22 @@
 				A1EFBEB51D2D5EBC00EEE8E5 /* Main.storyboard */,
 				A1EFBEB81D2D5EBC00EEE8E5 /* Assets.xcassets */,
 				A1EFBEBA1D2D5EBC00EEE8E5 /* LaunchScreen.storyboard */,
+				A1EFBEDB1D2DA3A200EEE8E5 /* Audio Files */,
 				A1EFBEBD1D2D5EBC00EEE8E5 /* Info.plist */,
 			);
 			path = DJTQuoteGenerator;
+			sourceTree = "<group>";
+		};
+		A1EFBEDB1D2DA3A200EEE8E5 /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				A1EFBEDC1D2DA3A200EEE8E5 /* beatenManyPeople.mp3 */,
+				A1EFBEDD1D2DA3A200EEE8E5 /* bestBusiness.mp3 */,
+				A1EFBEE61D2DA49300EEE8E5 /* bringingDrugs.mp3 */,
+				A1EFBEDE1D2DA3A200EEE8E5 /* bigFailures.mp3 */,
+				A1EFBEE01D2DA3A200EEE8E5 /* mostCompetitive.mp3 */,
+			);
+			path = "Audio Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +123,7 @@
 				TargetAttributes = {
 					A1EFBEAD1D2D5EBC00EEE8E5 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7TMT982P23;
 					};
 				};
 			};
@@ -124,7 +152,12 @@
 			files = (
 				A1EFBEBC1D2D5EBC00EEE8E5 /* LaunchScreen.storyboard in Resources */,
 				A1EFBEB91D2D5EBC00EEE8E5 /* Assets.xcassets in Resources */,
+				A1EFBEE31D2DA3A200EEE8E5 /* bigFailures.mp3 in Resources */,
+				A1EFBEE21D2DA3A200EEE8E5 /* bestBusiness.mp3 in Resources */,
+				A1EFBEE71D2DA49300EEE8E5 /* bringingDrugs.mp3 in Resources */,
+				A1EFBEE51D2DA3A200EEE8E5 /* mostCompetitive.mp3 in Resources */,
 				A1EFBEB71D2D5EBC00EEE8E5 /* Main.storyboard in Resources */,
+				A1EFBEE11D2DA3A200EEE8E5 /* beatenManyPeople.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +282,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DJTQuoteGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JackieEnnis.DJTQuoteGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -260,10 +296,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = DJTQuoteGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JackieEnnis.DJTQuoteGenerator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -286,6 +325,7 @@
 				A1EFBEC21D2D5EBC00EEE8E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
