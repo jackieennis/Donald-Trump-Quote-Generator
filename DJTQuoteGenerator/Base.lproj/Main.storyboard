@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -17,39 +18,68 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sh** Donald Says" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJR-fl-H2B">
+                                <rect key="frame" x="175" y="55" width="250" height="31"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-BlackItalic" family="Hoefler Text" pointSize="31"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kn8-2i-RfT">
+                                <rect key="frame" x="211" y="527" width="178" height="38"/>
+                                <fontDescription key="fontDescription" name="HoeflerText-BlackItalic" family="Hoefler Text" pointSize="25"/>
+                                <state key="normal" title="Register to Vote">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AtG-DD-XkV">
+                                <rect key="frame" x="359" y="134" width="136" height="103"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3C-xu-k7b">
+                                <rect key="frame" x="20" y="434" width="560" height="85"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="85" id="HTG-9k-jnW"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HoeflerText-BlackItalic" family="Hoefler Text" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bxd-ee-UA6">
-                                <rect key="frame" x="142.5" y="94" width="314" height="413"/>
+                                <rect key="frame" x="143" y="94" width="314" height="413"/>
                                 <state key="normal" title="Button" image="trumpResized"/>
                                 <connections>
                                     <action selector="playAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VEh-aY-YCx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sh** Donald Says" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wJR-fl-H2B">
-                                <rect key="frame" x="175" y="55" width="249.5" height="31"/>
-                                <fontDescription key="fontDescription" name="HoeflerText-BlackItalic" family="Hoefler Text" pointSize="31"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="wJR-fl-H2B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="5" id="4xG-yC-D6v"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="M3C-xu-k7b" secondAttribute="trailing" id="PE4-Ap-cS6"/>
+                            <constraint firstAttribute="bottom" secondItem="kn8-2i-RfT" secondAttribute="bottom" constant="20" symbolic="YES" id="PLZ-JP-9K8"/>
+                            <constraint firstItem="kn8-2i-RfT" firstAttribute="centerX" secondItem="bxd-ee-UA6" secondAttribute="centerX" id="UjN-W5-wPZ"/>
                             <constraint firstItem="bxd-ee-UA6" firstAttribute="top" secondItem="wJR-fl-H2B" secondAttribute="bottom" constant="8" symbolic="YES" id="bnQ-PD-WVv"/>
+                            <constraint firstItem="kn8-2i-RfT" firstAttribute="top" secondItem="M3C-xu-k7b" secondAttribute="bottom" constant="8" symbolic="YES" id="gRt-aH-MAf"/>
+                            <constraint firstItem="M3C-xu-k7b" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="jQo-BZ-Ui1"/>
                             <constraint firstItem="bxd-ee-UA6" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="tap-A8-EDo"/>
                             <constraint firstItem="bxd-ee-UA6" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ukY-63-l9y"/>
                             <constraint firstItem="wJR-fl-H2B" firstAttribute="centerX" secondItem="bxd-ee-UA6" secondAttribute="centerX" id="w4e-FY-lZc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kn8-2i-RfT" secondAttribute="bottom" constant="35" id="xql-kw-0mB"/>
                             <constraint firstItem="wJR-fl-H2B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="35" id="zkc-B1-uOa"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
                                 <exclude reference="4xG-yC-D6v"/>
+                                <exclude reference="PLZ-JP-9K8"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="quoteTextLabel" destination="M3C-xu-k7b" id="KTt-B1-VMx"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="380" y="335"/>
+            <point key="canvasLocation" x="-224" y="235"/>
         </scene>
     </scenes>
     <resources>

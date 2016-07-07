@@ -10,46 +10,12 @@ import UIKit
 import AVFoundation
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var quoteTextLabel: UILabel!
 
-    var quote = NSURL()
-    
+    var quoteURL = NSURL()
     var buttonAudioPlayer = AVAudioPlayer()
-    
-    func generateRandomQuote() -> String {
-        let randPicker = Int(arc4random_uniform(14))
-        var currentQuote = String()
-        switch randPicker {
-        case 1:
-            currentQuote = "nowhere"
-        case 2:
-            currentQuote = "mexican"
-        case 3:
-            currentQuote = "love"
-        case 4:
-            currentQuote = "knees"
-        case 5:
-            currentQuote = "ladies"
-        case 6:
-            currentQuote = "pay"
-        case 7:
-            currentQuote = "missUSA"
-        case 8:
-            currentQuote = "muslim"
-        case 9:
-            currentQuote = "wall"
-        case 10:
-            currentQuote = "loan"
-        case 11:
-            currentQuote = "rapists"
-        case 12:
-            currentQuote = "tremendous"
-        case 13:
-            currentQuote = "univision"
-        default:
-            currentQuote = "rapists"
-        }
-        return currentQuote
-    }
+    var index = 1
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -63,15 +29,20 @@ class ViewController: UIViewController {
     }
 
     @IBAction func playAudio(sender: AnyObject) {
-        let quotePicked = self.generateRandomQuote()
-        quote = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(quotePicked, ofType: "mp3")!)
+        if index > 13 {
+            index = 1
+        }
+        let quoteToPlay = Quote(index: index)
+        quoteURL = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource(quoteToPlay.fileName, ofType: "mp3")!)
         do {
-            try buttonAudioPlayer = AVAudioPlayer(contentsOfURL: quote)
+            try buttonAudioPlayer = AVAudioPlayer(contentsOfURL: quoteURL)
             if(buttonAudioPlayer.playing == true)
             {
                 buttonAudioPlayer.stop()
             }
+            quoteTextLabel.text = quoteToPlay.text
             buttonAudioPlayer.play()
+            index += 1
         } catch {
             print("Cannot play audio)")
         }
