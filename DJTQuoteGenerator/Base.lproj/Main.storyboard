@@ -30,10 +30,10 @@
                                 <state key="normal" title="Register to Vote">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="linkToRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xk7-iD-mVI"/>
+                                </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AtG-DD-XkV">
-                                <rect key="frame" x="359" y="134" width="136" height="103"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="..." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M3C-xu-k7b">
                                 <rect key="frame" x="20" y="434" width="560" height="85"/>
                                 <constraints>

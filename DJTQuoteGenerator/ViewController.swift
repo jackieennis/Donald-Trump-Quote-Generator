@@ -28,6 +28,12 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func linkToRegister(sender: AnyObject) {
+        if let url = NSURL(string: "https://www.usa.gov/register-to-vote") {
+            UIApplication.sharedApplication().openURL(url)
+        }
+        
+    }
     @IBAction func playAudio(sender: AnyObject) {
         if index > 13 {
             index = 1
